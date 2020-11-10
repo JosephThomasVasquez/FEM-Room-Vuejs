@@ -1,0 +1,53 @@
+:root {
+  --font-primary: 'Spartan', Avenir, Helvetica, Arial, sans-serif;
+}
+
+#app {
+    font-family: var(--font-primary);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+  }
+  
+  /* NAV ------------------------------------- */
+  #nav {
+    padding: 5% 0 0 0;
+    width: 50%;
+  }
+  
+  #nav a {
+    font-weight: bold;
+    color: #2c3e50;
+    text-align: left;
+  }
+  
+  #nav a.router-link-exact-active {
+    color: #42b983;
+  }
+
+  .title-name {
+    display: inline;
+    background: #ddd;
+    padding: 10px;
+  }
+
+  /* HERO IMAGE CONTAINER ---------------------------------------------------- */
+  .img-container {
+    width: 60%;
+  }
+
+  .img-hero1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    width: 60%;
+  }
+
+  .section-headline {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 40%;
+  }
