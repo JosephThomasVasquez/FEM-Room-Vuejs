@@ -18,7 +18,14 @@
           collection and make your property a reflection of you and what you
           love.
         </p>
-        <a href="/shop" class="link-shop">SHOP NOW</a><img src="../../public/images/icon-arrow.svg" alt="icon-arrow" class="icon-arrow">
+        <div class="link-shop">
+        <a href="/shop">SHOP NOW</a>
+        <img
+          src="../../public/images/icon-arrow.svg"
+          alt="icon-arrow"
+          class="icon-arrow"
+        />
+        </div>
       </div>
     </div>
   </div>
