@@ -9,72 +9,86 @@
     text-align: center;
     color: #2c3e50;
   }
-  
-  /* NAV ------------------------------------- */
-  #nav {
-    margin-left: 3.5%;
-    width: 50%;
-    text-align: left;
-  }
-  
-  #nav a {
-    margin: 0 2.5%;
-    font-size: 1vw;
-    font-weight: bold;
-    color: white;
-    text-align: left;
-    text-decoration: none;
-  }
-  
-  #nav a.router-link-exact-active {
-    color: white;
-  }
 
-  .nav-bar {
-    padding: 5% 0 0 0;
-    width: 100%;
-  }
+/* NAV ------------------------------------- */
+#nav {
+  margin-left: 3.5%;
+  width: 50%;
+  text-align: left;
+}
 
-  .title-name {
-    display: inline;
-    color: white;
-    padding: 0.5vw;
-    margin-right: 2.5%;
-    font-size: 2vw;
-    font-weight: 700;
-  }
+#nav a {
+  margin: 0 2.5%;
+  font-size: 1vw;
+  font-weight: bold;
+  color: white;
+  text-align: left;
+  text-decoration: none;
+}
 
-  /* HERO IMAGE CONTAINER ---------------------------------------------------- */
-  .img-container {
-    width: 60%;
-  }
+#nav a.router-link-exact-active {
+  color: white;
+}
 
-  .img-hero1 {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    z-index: -1;
-    width: 60%;
-  }
+.nav-bar {
+  padding: 5% 0 0 0;
+  width: 100%;
+}
 
-  .section-headline {
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    width: 40%;
-  }
+.title-name {
+  display: inline;
+  color: white;
+  padding: 0.5vw;
+  margin-right: 2.5%;
+  font-size: 2vw;
+  font-weight: 700;
+}
 
-  .container-headline {
-    padding: 5%;
-    margin: 10%;
-  }
+/* HERO IMAGE CONTAINER ---------------------------------------------------- */
+.img-container {
+  width: 60%;
+}
 
-  .headline-h1 {
-    font-size: 2.5vw;
-    text-align: left;
-  }
+.img-hero1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+  width: 60%;
+}
 
-  .headline-subtext {
-    font-size: 1vw;
-    text-align: left;
-  }
+.section-headline {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 40%;
+}
+
+.container-headline {
+  padding: 5%;
+  margin: 10%;
+}
+
+.headline-h1 {
+  font-size: 2.5vw;
+  text-align: left;
+}
+
+.headline-subtext {
+  font-size: 1vw;
+  text-align: left;
+}
+
+.link-shop {
+  display: inline-block;
+  color: black;
+  font-size: 1vw;
+  letter-spacing: 5px;
+  text-align: left;
+  text-decoration: none;
+}
+
+.icon-arrow {
+  width: 10%;
+  margin-left: 10%;
+}

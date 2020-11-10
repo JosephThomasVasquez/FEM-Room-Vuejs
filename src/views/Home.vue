@@ -3,7 +3,7 @@
     <div class="img-container">
       <img
         alt="Vue logo"
-        src="../../public\images\desktop-image-hero-1.jpg"
+        src="../../public/images/desktop-image-hero-1.jpg"
         class="img-hero1"
       />
       <HelloWorld msg="Room" />
@@ -18,6 +18,7 @@
           collection and make your property a reflection of you and what you
           love.
         </p>
+        <a href="/shop" class="link-shop">SHOP NOW</a><img src="../../public/images/icon-arrow.svg" alt="icon-arrow" class="icon-arrow">
       </div>
     </div>
   </div>
