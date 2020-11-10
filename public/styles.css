@@ -12,24 +12,36 @@
   
   /* NAV ------------------------------------- */
   #nav {
-    padding: 5% 0 0 0;
+    margin-left: 3.5%;
     width: 50%;
-  }
-  
-  #nav a {
-    font-weight: bold;
-    color: #2c3e50;
     text-align: left;
   }
   
+  #nav a {
+    margin: 0 2.5%;
+    font-size: 1vw;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    text-decoration: none;
+  }
+  
   #nav a.router-link-exact-active {
-    color: #42b983;
+    color: white;
+  }
+
+  .nav-bar {
+    padding: 5% 0 0 0;
+    width: 100%;
   }
 
   .title-name {
     display: inline;
-    background: #ddd;
-    padding: 10px;
+    color: white;
+    padding: 0.5vw;
+    margin-right: 2.5%;
+    font-size: 2vw;
+    font-weight: 700;
   }
 
   /* HERO IMAGE CONTAINER ---------------------------------------------------- */
@@ -50,4 +62,19 @@
     top: 0px;
     right: 0px;
     width: 40%;
+  }
+
+  .container-headline {
+    padding: 5%;
+    margin: 10%;
+  }
+
+  .headline-h1 {
+    font-size: 2.5vw;
+    text-align: left;
+  }
+
+  .headline-subtext {
+    font-size: 1vw;
+    text-align: left;
   }
