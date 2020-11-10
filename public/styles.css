@@ -34,6 +34,21 @@
   position: relative;
 }
 
+#nav a.router-link-exact-active::after {
+  opacity: 1;
+  position: absolute;
+  content: "";
+  left: calc(50% - 25%);
+  top: 2vw;
+  padding: 0;
+  margin: 0;
+  background: white;
+  border-radius: 20px;
+  width: 50%;
+  height: 0.2vw;
+  transition: 0.4s ease;
+}
+
 .nav-bar {
   padding: 5% 0 0 0;
   width: 100%;
@@ -106,16 +121,7 @@
 
 /* HOVERS --------------------------- */
 
-#nav a:hover {
-  margin: 0 2.5%;
-  font-size: 1vw;
-  font-weight: bold;
-  color: darkgray;
-  text-align: left;
-  text-decoration: none;
-}
-
-#nav a, #nav a:hover, .link-shop a, .link-shop a:hover {
+#nav a, #nav a:hover, .link-shop a, .link-shop a:hover, #nav a.router-link-exact-active:hover {
   transition: 0.4s ease;
 }
 
