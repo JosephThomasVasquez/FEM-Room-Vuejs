@@ -6,7 +6,6 @@
         src="../../public/images/desktop-image-hero-1.jpg"
         class="img-hero1"
       />
-      <HelloWorld msg="Room" />
     </div>
     <div class="section-headline">
       <div class="container-headline">
@@ -32,13 +31,11 @@
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
-
+// import HeadlineContent from './components/HeadlineContent.vue';
 export default {
   name: "Home",
   components: {
-    HelloWorld,
+    
   },
 };
 </script>

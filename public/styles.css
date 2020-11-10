@@ -18,16 +18,20 @@
 }
 
 #nav a {
+  display: inline-block;
   margin: 0 2.5%;
   font-size: 1vw;
   font-weight: bold;
   color: white;
   text-align: left;
   text-decoration: none;
+  position: relative;
 }
 
 #nav a.router-link-exact-active {
+  display: inline-block;
   color: white;
+  position: relative;
 }
 
 .nav-bar {
