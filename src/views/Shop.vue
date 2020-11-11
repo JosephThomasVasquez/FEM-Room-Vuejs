@@ -1,6 +1,10 @@
 <template>
   <div class="shop">
-    <img alt="Vue logo" src="../../public\images\desktop-image-hero-1.jpg" class="img-hero1" />
+    <img
+      alt="Vue logo"
+      src="../assets/images/desktop-image-hero-2.jpg"
+      class="img-hero1"
+    />
     <HelloWorld msg="Shop" />
   </div>
 </template>

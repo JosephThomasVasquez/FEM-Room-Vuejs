@@ -37,11 +37,11 @@ export default {
   border-radius: 20px;
   width: 50%;
   height: 0.2vw;
-  transition: 0.4s ease;
+  transition: 1s ease;
 }
 
 .nav-hover:hover:after {
   opacity: 1;
-  transition: 0.4s ease;
+  transition: 0.2s ease;
 }
 </style>
